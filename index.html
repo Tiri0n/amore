@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amore le Terrazze</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-content">
+    <h1>Amore le Terrazze</h1>
+    <a href="#contact" class="btn">Забронировать столик</a>
+  </div>
+</header>
 
+<section class="about">
+  <div class="about-text">
+    <h2>О ресторане</h2>
+    <p>"Amore le Terrazze" &mdash; уютный ресторан в самом сердце города. В интерьере мы сочетали нежные пастельные оттенки и живые цветы, дополнив атмосферу лёгкими мотивами эпохи Возрождения. Здесь вы сможете насладиться авторской итальянской кухней и панорамным видом на городские террасы.</p>
+  </div>
+  <div class="about-image">
+    <img src="https://source.unsplash.com/800x600/?restaurant,interior" alt="Интерьер ресторана">
+  </div>
+</section>
+
+<section class="menu">
+  <h2>Наши фирменные блюда</h2>
+  <div class="menu-items">
+    <div class="dish">
+      <h3>Ризотто с белыми грибами</h3>
+      <p>Нежный рис с ароматом лесных грибов и трюфельным маслом.</p>
+      <span class="price">850 ₽</span>
+    </div>
+    <div class="dish">
+      <h3>Стейк из тунца с овощами</h3>
+      <p>Свежий тунец, обжаренный до идеальной прожарки, с сезонными овощами.</p>
+      <span class="price">1100 ₽</span>
+    </div>
+    <div class="dish">
+      <h3>Домашняя паста с томатами</h3>
+      <p>Паста, приготовленная вручную, в нежном соусе из спелых томатов.</p>
+      <span class="price">750 ₽</span>
+    </div>
+    <div class="dish">
+      <h3>Тирамису</h3>
+      <p>Классический десерт с маскарпоне и ароматным эспрессо.</p>
+      <span class="price">450 ₽</span>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <h2>Галерея</h2>
+  <div class="gallery-images">
+    <img src="https://source.unsplash.com/600x400/?restaurant,1" alt="Фото интерьера">
+    <img src="https://source.unsplash.com/600x400/?restaurant,2" alt="Фото интерьера">
+    <img src="https://source.unsplash.com/600x400/?restaurant,3" alt="Фото интерьера">
+    <img src="https://source.unsplash.com/600x400/?restaurant,4" alt="Фото интерьера">
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Свяжитесь с нами</h2>
+  <form action="contact.php" method="post">
+    <label for="name">Имя</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Сообщение</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+</section>
+
+<footer>
+  <p>Адрес: Москва, ул. Примерная, 1</p>
+  <p>Телефон: +7 (495) 123-45-67</p>
+  <div class="social">
+    <a href="#">VK</a>
+    <a href="#">Telegram</a>
+    <a href="#">Instagram</a>
+  </div>
+  <p>&copy; 2024 Amore le Terrazze</p>
+</footer>
+</body>
+</html>
